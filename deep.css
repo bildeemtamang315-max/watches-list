@@ -1,0 +1,96 @@
+/* ABOUT PAGE */
+
+/* About Header */
+.about-header {
+  text-align: center;
+  padding: 80px 20px;
+  background: #111;
+  border-bottom: 1px solid #222;
+}
+
+.about-header h1 {
+  color: #d4af37;
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+/* About Content Section */
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 40px;
+  gap: 50px;
+  flex-wrap: wrap;
+  background: #0d0d0d;
+}
+
+.about-text {
+  width: 50%;
+  min-width: 320px;
+}
+
+.about-text h2 {
+  color: #d4af37;
+  font-size: 1.8rem;
+  margin-top: 25px;
+}
+
+.about-text p {
+  color: #ddd;
+  line-height: 1.8;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* About Image */
+.about-image img {
+  width: 420px;
+  border-radius: 12px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+/* Mission Section */
+.mission {
+  text-align: center;
+  padding: 70px 20px;
+  background: #111;
+  border-top: 1px solid #222;
+}
+
+.mission h2 {
+  color: #d4af37;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.mission p {
+  color: #ccc;
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design for About Page */
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about-image img {
+    width: 90%;
+  }
+}
